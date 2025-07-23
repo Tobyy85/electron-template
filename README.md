@@ -9,7 +9,7 @@ Starter template using Vite, React, and TypeScript — includes routing and Tail
 Create a new project using this template:
 
 ```bash
-npm create vite@latest . -- --template gh:tobyy85/vite-template
+degit Tobyy85/vite-template
 
 npx npm-check-updates -u
 npm install
