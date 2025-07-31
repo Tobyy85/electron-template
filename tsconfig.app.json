@@ -32,7 +32,7 @@
             "@utils/*": ["utils/*"],
             "@types_/*": ["types/*"], //! to avoid conflict with @types
             "@assets/*": ["assets/*"]
-        },
+        }
     },
     "include": ["src"]
 }

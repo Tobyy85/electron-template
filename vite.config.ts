@@ -15,6 +15,6 @@ export default defineConfig({
             '@utils': '/src/utils',
             '@types_': '/src/types', //! to avoid conflict with @types
             '@assets': '/src/assets',
-        }
-    }
+        },
+    },
 })
