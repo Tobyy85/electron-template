@@ -13,6 +13,7 @@ export default defineConfig({
             '@pages': '/src/pages',
             '@hooks': '/src/hooks',
             '@utils': '/src/utils',
+            '@lib': '/src/lib',
             '@types_': '/src/types', //! to avoid conflict with @types
             '@assets': '/src/assets',
         },
