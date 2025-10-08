@@ -2,6 +2,7 @@
     "name": "vite-template",
     "private": true,
     "version": "0.0.0",
+    "main": "dist-electron/main.js",
     "scripts": {
         "lint": "eslint .",
         "preview": "vite preview",
