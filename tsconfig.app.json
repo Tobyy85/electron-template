@@ -35,5 +35,5 @@
             "@assets/*": ["assets/*"]
         }
     },
-    "include": ["src"]
+    "include": ["src", "electron/types/electron.d.ts"]
 }
