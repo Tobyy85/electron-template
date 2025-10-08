@@ -2,13 +2,17 @@
     "name": "vite-template",
     "private": true,
     "version": "0.0.0",
-    "type": "module",
     "scripts": {
-        "dev": "vite",
-        "build": "tsc -b && vite build",
         "lint": "eslint .",
         "preview": "vite preview",
-        "format": "prettier --write ."
+        "format": "prettier --write .",
+        "dev": "concurrently \"npm:vite:dev\" \"npm:electron:watch\" \"npm:electron:start\"",
+        "build": "npm run build:electron && vite build",
+        "vite:dev": "vite",
+        "electron:watch": "tsc -w -p electron/tsconfig.json",
+        "electron:start": "wait-on tcp:3000 dist-electron/main.js && nodemon --watch dist-electron --ext js,mjs,cjs --delay 200ms --exec \"electron .\"",
+        "build:electron": "tsc -p electron/tsconfig.json",
+        "dist": "npm run build && electron-builder"
     },
     "dependencies": {
         "@tailwindcss/vite": "^4.1.14",
