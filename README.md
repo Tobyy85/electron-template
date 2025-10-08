@@ -1,6 +1,6 @@
-# Vite + React + TypeScript Template
+# Electron + Vite + React + TypeScript Template
 
-Starter template using Vite, React, and TypeScript — includes routing and Tailwind CSS.
+Starter template using Electron, Vite, React, and TypeScript — includes routing and Tailwind CSS.
 
 ---
 
@@ -13,5 +13,22 @@ degit Tobyy85/vite-template
 
 npx npm-check-updates -u
 npm install
+```
+
+<!-- v aplikaci jsou promena ktere si muzete nastavit, vzdcky zacinaji na VAR_ -->
+
+## ⚙️ Configuration
+
+Configure your app by changing the values in code that start with `VAR_`
+
+## Start development
+
+```bash
 npm run dev
+```
+
+## Build for production
+
+```bash
+npm run dist
 ```
