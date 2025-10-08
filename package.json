@@ -14,6 +14,18 @@
         "build:electron": "tsc -p electron/tsconfig.json",
         "dist": "npm run build && electron-builder"
     },
+    "build": {
+        "appId": "com.VAR_APP_ID.VAR_PRODUCT_NAME",
+        "productName": "VAR_PRODUCT_NAME",
+        "files": [
+            "dist/**/*",
+            "dist-electron/**/*"
+        ],
+        "directories": {
+            "buildResources": "assets",
+            "output": "release"
+        }
+    },
     "dependencies": {
         "@tailwindcss/vite": "^4.1.14",
         "react": "^19.2.0",
