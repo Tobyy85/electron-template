@@ -4,13 +4,14 @@ import './styles/tailwind.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 import HomePage from '@pages/HomePage'
+import NotFoundPage from '@pages/NotFoundPage'
 
 const router = createBrowserRouter(
     [
         {
             path: '/',
             element: <HomePage />,
-            errorElement: <></>,
+            errorElement: <NotFoundPage />,
         },
     ],
     { basename: import.meta.env.BASE_URL || '/' }
