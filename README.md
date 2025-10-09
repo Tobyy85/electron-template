@@ -9,7 +9,7 @@ Starter template using Electron, Vite, React, and TypeScript — includes routin
 Create a new project using this template:
 
 ```bash
-degit Tobyy85/vite-template
+degit Tobyy85/electron-template
 
 npx npm-check-updates -u
 npm install
