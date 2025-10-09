@@ -15,8 +15,6 @@ npx npm-check-updates -u
 npm install
 ```
 
-<!-- v aplikaci jsou promena ktere si muzete nastavit, vzdcky zacinaji na VAR_ -->
-
 ## ⚙️ Configuration
 
 Configure your app by changing the values in code that start with `VAR_`
