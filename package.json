@@ -1,5 +1,5 @@
 {
-    "name": "vite-template",
+    "name": "var_product_name",
     "private": true,
     "version": "0.0.0",
     "main": "dist-electron/main.js",
