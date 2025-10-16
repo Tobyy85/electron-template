@@ -3,8 +3,8 @@ import { createRoot } from 'react-dom/client'
 import './styles/tailwind.css'
 import { createBrowserRouter, createHashRouter, RouterProvider } from 'react-router-dom'
 
-import HomePage from '@pages/HomePage'
-import NotFoundPage from '@pages/NotFoundPage'
+import HomePage from '@/pages/HomePage'
+import NotFoundPage from '@/pages/NotFoundPage'
 
 const routes = [
     {
