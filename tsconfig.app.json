@@ -26,13 +26,7 @@
         /* aliases */
         "baseUrl": "./src",
         "paths": {
-            "@components/*": ["components/*"],
-            "@pages/*": ["pages/*"],
-            "@hooks/*": ["hooks/*"],
-            "@utils/*": ["utils/*"],
-            "@lib/*": ["lib/*"],
-            "@types_/*": ["types/*"], //! to avoid conflict with @types
-            "@assets/*": ["assets/*"]
+            "@/*": ["*"]
         }
     },
     "include": ["src"]
