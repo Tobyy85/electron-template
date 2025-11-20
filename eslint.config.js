@@ -132,7 +132,7 @@ export default tseslint.config([
             'prefer-spread': 'warn',
             'prefer-template': 'warn',
             'preserve-caught-error': 'warn',
-            radix: 'warn',
+            // radix: 'warn',
             'require-await': 'warn',
             'require-unicode-regexp': 'warn',
             'require-yield': 'warn',
