@@ -1,0 +1,61 @@
+{
+    "files.exclude": {
+        // Project configuration files
+        // "**/package.json": true,
+        // "**/vite.config.ts": true,
+        // "**/index.html": true,
+        // "**/README.md": true,
+
+        // ESLint, Prettier, Git
+        // "**/eslint.config.js": true,
+        // "**/.prettierrc": true,
+        // "**/.prettierignore": true,
+        // "**/.gitignore": true,
+
+        // TypeScript
+        // "**/tsconfig.json": true,
+        // "**/tsconfig.app.json": true,
+        // "**/tsconfig.node.json": true,
+        // "**/vite-env.d.ts": true,
+
+        // Docker
+        // "**/Dockerfile*": true,
+        // "**/docker-compose*.yml": true,
+        // "**/.dockerignore": true,
+        // "**/nginx.conf": true,
+
+        // Generated files and dependencies
+        "**/package-lock.json": true,
+        "**/node_modules": true,
+        "**/dist": true
+    },
+    // Formatting and Linting
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit",
+        "source.organizeImports": "explicit"
+    },
+    "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+
+    // Imports
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.preferences.importModuleSpecifier": "non-relative",
+    "typescript.preferences.importModuleSpecifier": "non-relative",
+    "javascript.preferences.importModuleSpecifierEnding": "minimal",
+    "typescript.preferences.importModuleSpecifierEnding": "minimal",
+
+    // Emmet
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "typescript": "typescriptreact"
+    },
+    "emmet.triggerExpansionOnTab": true,
+
+    // Tailwind CSS
+    "tailwindCSS.emmetCompletions": true,
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+
+    "css.customData": ["./.vscode/tailwind-custom-data.json"]
+}
