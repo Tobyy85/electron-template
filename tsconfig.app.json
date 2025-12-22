@@ -6,7 +6,6 @@
         "lib": ["ES2022", "DOM", "DOM.Iterable"],
         "module": "ESNext",
         "skipLibCheck": true,
-
         /* Bundler mode */
         "moduleResolution": "bundler",
         "allowImportingTsExtensions": true,
@@ -14,7 +13,6 @@
         "moduleDetection": "force",
         "noEmit": true,
         "jsx": "react-jsx",
-
         /* Linting */
         "strict": true,
         "noUnusedLocals": true,
@@ -22,12 +20,11 @@
         "erasableSyntaxOnly": true,
         "noFallthroughCasesInSwitch": true,
         "noUncheckedSideEffectImports": true,
-
         /* aliases */
-        "baseUrl": "./src",
+        "baseUrl": "./src/renderer",
         "paths": {
             "@/*": ["*"]
         }
     },
-    "include": ["src", "electron/types/electron.d.ts"]
+    "include": ["src/renderer", "src/main/types/electron.d.ts"]
 }

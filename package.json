@@ -10,9 +10,9 @@
         "dev": "concurrently \"npm:vite:dev\" \"npm:electron:watch\" \"npm:electron:start\"",
         "build": "npm run build:electron && vite build",
         "vite:dev": "vite",
-        "electron:watch": "tsc -w -p electron/tsconfig.json",
+        "electron:watch": "tsc -w -p src/main/tsconfig.json",
         "electron:start": "wait-on tcp:3000 dist-electron/main.js && nodemon --watch dist-electron --ext js,mjs,cjs --delay 200ms --exec \"electron .\"",
-        "build:electron": "tsc -p electron/tsconfig.json",
+        "build:electron": "tsc -p src/main/tsconfig.json",
         "dist": "npm run build && electron-builder"
     },
     "build": {
