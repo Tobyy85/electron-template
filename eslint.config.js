@@ -139,6 +139,7 @@ export default tseslint.config([
             'symbol-description': 'warn',
             'vars-on-top': 'warn',
             yoda: ['warn', 'never', { exceptRange: true }],
+            'react-hooks/set-state-in-effect': 'off',
         },
     },
     {
