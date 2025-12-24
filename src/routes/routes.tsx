@@ -1,5 +1,5 @@
-import HomePage from '@/pages/HomePage'
-import NotFoundPage from '@/pages/NotFoundPage'
+import HomePage from '@/routes/Home'
+import NotFoundPage from '@/routes/NotFound'
 
 export const routes = [
     {
