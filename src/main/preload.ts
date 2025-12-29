@@ -1,3 +1,6 @@
 import { contextBridge } from 'electron'
 
-contextBridge.exposeInMainWorld('api', {})
+const electronApi = {}
+
+export type ElectronApi = typeof electronApi
+contextBridge.exposeInMainWorld('api', electronApi)
