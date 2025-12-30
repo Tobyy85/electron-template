@@ -15,6 +15,7 @@
         // TypeScript
         // "**/tsconfig.json": true,
         // "**/tsconfig.app.json": true,
+        // "**/tsconfig.electron.json": true,
         // "**/tsconfig.node.json": true,
         // "**/vite-env.d.ts": true,
 
