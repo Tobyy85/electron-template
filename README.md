@@ -11,6 +11,7 @@ Create a new project using this template:
 ```bash
 degit Tobyy85/electron-template
 
+# Update and install dependencies
 npx npm-check-updates -u
 npm install
 ```
@@ -28,5 +29,5 @@ npm run dev
 ## Build for production
 
 ```bash
-npm run dist
+npm run build
 ```
