@@ -28,6 +28,7 @@
     },
     // Formatting and Linting
     "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "files.eol": "\n",
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": "explicit",
         "source.sortImports": "explicit"
