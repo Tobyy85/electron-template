@@ -7,7 +7,7 @@
         // "**/README.md": true,
 
         // ESLint, Prettier, Git
-        // "**/eslint.config.js": true,
+        // "**/eslint.config.mjs": true,
         // "**/.prettierrc": true,
         // "**/.prettierignore": true,
         // "**/.gitignore": true,
