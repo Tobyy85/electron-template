@@ -7,7 +7,7 @@ export default defineConfig({
     base: '/VAR_BASE_URL',
     server: {
         host: '0.0.0.0',
-        port: parseInt(process.env.PORT || '5173'),
+        port: parseInt(process.env.PORT ?? '5173'),
         strictPort: true,
         watch: {
             usePolling: process.env.CHOKIDAR_USEPOLLING === 'true',
@@ -16,7 +16,7 @@ export default defineConfig({
     },
     resolve: {
         alias: {
-            '@': '/src',
+            '@': '/src', // eslint-disable-line @typescript-eslint/naming-convention
         },
     },
 })
