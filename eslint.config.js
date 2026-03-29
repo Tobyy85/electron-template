@@ -13,7 +13,7 @@ export default tseslint.config([
         files: ['**/*.{ts,tsx,mts,cts,js,jsx,mjs,cjs}'],
         extends: [
             js.configs.recommended,
-            reactHooks.configs['recommended-latest'],
+            reactHooks.configs.flat['recommended-latest'],
             reactRefresh.configs.vite,
         ],
         languageOptions: {
@@ -373,7 +373,7 @@ export default tseslint.config([
             '@typescript-eslint/no-unsafe-return': 'warn',
             '@typescript-eslint/no-unsafe-type-assertion': 'warn',
             '@typescript-eslint/no-unsafe-unary-minus': 'warn',
-            // '@typescript-eslint/no-useless-default-assignment': 'warn',
+            '@typescript-eslint/no-useless-default-assignment': 'warn',
             '@typescript-eslint/no-useless-empty-export': 'warn',
             '@typescript-eslint/no-wrapper-object-types': 'warn',
             '@typescript-eslint/non-nullable-type-assertion-style': 'warn',
@@ -401,7 +401,7 @@ export default tseslint.config([
             '@typescript-eslint/restrict-template-expressions': 'warn',
             '@typescript-eslint/return-await': ['warn', 'always'],
             '@typescript-eslint/strict-boolean-expressions': 'warn',
-            // '@typescript-eslint/strict-void-return': 'warn',
+            '@typescript-eslint/strict-void-return': 'warn',
             '@typescript-eslint/switch-exhaustiveness-check': 'warn',
             '@typescript-eslint/unbound-method': ['warn', { ignoreStatic: true }],
             '@typescript-eslint/unified-signatures': 'warn',
