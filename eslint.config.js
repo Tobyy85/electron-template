@@ -190,6 +190,10 @@ export default tseslint.config([
                     format: ['camelCase', 'UPPER_CASE', 'PascalCase'], // allow PascalCase for React components
                 },
                 {
+                    selector: 'import',
+                    format: ['camelCase', 'PascalCase'],
+                },
+                {
                     selector: 'parameter',
                     format: ['camelCase'],
                     leadingUnderscore: 'allow',
@@ -412,6 +416,13 @@ export default tseslint.config([
         files: ['**/*.{tsx,jsx}'],
         rules: {
             'max-lines-per-function': ['warn', { max: 120, skipBlankLines: true, skipComments: true }], // JSX functions can be longer
+        },
+    },
+    {
+        files: ['**/*.tsx'],
+        rules: {
+            '@typescript-eslint/explicit-function-return-type': 'off',
+            '@typescript-eslint/explicit-module-boundary-types': 'off',
         },
     },
 ])
